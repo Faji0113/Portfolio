@@ -15,11 +15,13 @@ public class SceneController : MonoBehaviour
         
     }
 
+    //Title sceneのText Mesh ProのButtonにアタッチしOn click()で呼び出し
     public void GotoMain() 
     {
         SceneManager.LoadScene("Main");
     }
 
+    //Main sceneでクリアウィンドウのText Mesh ProのButtonにアタッチしOn click()で呼び出し
     public void GotoTitle() 
     {
         SceneManager.LoadScene("Title");

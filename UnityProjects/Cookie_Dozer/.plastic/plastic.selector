@@ -1,4 +1,0 @@
-repository "Cookie Dozer/Cookie_Dozer@15668362331308@cloud"
-  path "/"
-    br "/main"
-    co "/main"

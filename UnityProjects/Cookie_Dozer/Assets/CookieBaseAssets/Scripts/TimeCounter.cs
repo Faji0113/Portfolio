@@ -25,9 +25,9 @@ public class TimeCounter : MonoBehaviour
         if (cm.GetCookieAmount() >= 100 && !is_menu) 
         {
             StopCoroutine(c_timer);
-            //shotの受付を止める
+            //shot縺ｮ蜿嶺ｻ倥ｒ蛛懈ｭ｢
             shooter.Stopshot();
-            //メニュー画面にスコアを表示する文を追加する
+            //繝｡繝九Η繝ｼ繝代ロ繝ｫ縺ｫ繧ｹ繧ｳ繧｢繧定｡ｨ遉ｺ縺吶ｋ繝�繧ｭ繧ｹ繝医ｒ霑ｽ蜉
             GameObject score_text = new GameObject("Score_text");
             score_text.transform.SetParent(menuPanel.transform, false);
             TextMeshProUGUI ST = score_text.AddComponent<TextMeshProUGUI>();
@@ -44,7 +44,7 @@ public class TimeCounter : MonoBehaviour
             ST.fontStyle=FontStyles.Bold;
 
             ST.alignment = TextAlignmentOptions.Center;
-            //メニュー画面を表示する
+            //繝｡繝九Η繝ｼ逕ｻ髱｢繧定｡ｨ遉ｺ縺吶ｋ
             menuPanel.SetActive(true);
             is_menu = true;
         }
